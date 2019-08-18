@@ -37,7 +37,7 @@
  
  
  public class InMemoryUploadReceiver
-   implements Upload.Receiver, Upload.StartedListener, Upload.ProgressListener
+   implements Upload.Receiver, Upload.StartedListener
  {
    private static final long serialVersionUID = 1L;
    protected NotificationManager notificationManager;

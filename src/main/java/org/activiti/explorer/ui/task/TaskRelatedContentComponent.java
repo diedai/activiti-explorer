@@ -135,6 +135,12 @@
          });
          ExplorerApp.get().getViewManager().showPopupWindow(popup);
        }
+
+	@Override
+	public void buttonClick(com.vaadin.ui.Button.ClickEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
        
      });
      actionsContainer.addComponent(addRelatedContentButton);

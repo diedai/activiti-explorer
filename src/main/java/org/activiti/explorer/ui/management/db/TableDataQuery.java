@@ -48,7 +48,7 @@
      if ((this.sortPropertyIds != null) && (this.sortPropertyIds.length > 0)) {
        for (int i = 0; i < this.sortPropertyIds.length; i++) {
          String column = (String)this.sortPropertyIds[i];
-         if (this.sortPropertyIdsAscending[i] == 1) {
+         if (this.sortPropertyIdsAscending[i]) {
            query.orderAsc(column);
          } else {
            query.orderDesc(column);

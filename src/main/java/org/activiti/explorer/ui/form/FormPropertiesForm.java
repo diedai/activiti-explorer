@@ -182,7 +182,7 @@
  
      public FormPropertiesEvent(Component source, String type)
      {
-       super();
+       super(source);
        this.type = type;
      }
      

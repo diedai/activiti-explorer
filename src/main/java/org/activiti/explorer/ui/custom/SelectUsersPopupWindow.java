@@ -1,39 +1,33 @@
  package org.activiti.explorer.ui.custom;
  
- import com.vaadin.data.Item;
- import com.vaadin.data.Property;
-import com.vaadin.event.FieldEvents;
-import com.vaadin.event.FieldEvents.TextChangeEvent;
- import com.vaadin.event.FieldEvents.TextChangeListener;
- import com.vaadin.event.MouseEvents.ClickEvent;
- import com.vaadin.event.MouseEvents.ClickListener;
- import com.vaadin.ui.AbstractTextField.TextChangeEventMode;
- import com.vaadin.ui.Alignment;
- import com.vaadin.ui.Button;
- import com.vaadin.ui.Button.ClickEvent;
- import com.vaadin.ui.Button.ClickListener;
- import com.vaadin.ui.ComboBox;
- import com.vaadin.ui.Embedded;
- import com.vaadin.ui.HorizontalLayout;
- import com.vaadin.ui.Table;
- import com.vaadin.ui.TextField;
- import com.vaadin.ui.VerticalLayout;
  import java.util.Arrays;
- import java.util.Collection;
- import java.util.List;
- import java.util.Set;
- import org.activiti.engine.ActivitiException;
- import org.activiti.engine.IdentityService;
- import org.activiti.engine.ProcessEngine;
- import org.activiti.engine.ProcessEngines;
- import org.activiti.engine.identity.User;
- import org.activiti.engine.identity.UserQuery;
- import org.activiti.explorer.ExplorerApp;
- import org.activiti.explorer.I18nManager;
- import org.activiti.explorer.identity.LoggedInUser;
- import org.activiti.explorer.ui.Images;
- import org.activiti.explorer.ui.event.SubmitEvent;
- import org.activiti.explorer.ui.util.ThemeImageColumnGenerator;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
+
+import org.activiti.engine.ActivitiException;
+import org.activiti.engine.ProcessEngines;
+import org.activiti.engine.identity.User;
+import org.activiti.explorer.ExplorerApp;
+import org.activiti.explorer.I18nManager;
+import org.activiti.explorer.identity.LoggedInUser;
+import org.activiti.explorer.ui.Images;
+import org.activiti.explorer.ui.event.SubmitEvent;
+import org.activiti.explorer.ui.util.ThemeImageColumnGenerator;
+
+import com.vaadin.data.Item;
+import com.vaadin.event.FieldEvents;
+import com.vaadin.event.MouseEvents;
+import com.vaadin.event.MouseEvents.ClickEvent;
+import com.vaadin.ui.AbstractTextField.TextChangeEventMode;
+import com.vaadin.ui.Alignment;
+import com.vaadin.ui.Button;
+import com.vaadin.ui.ComboBox;
+import com.vaadin.ui.Embedded;
+import com.vaadin.ui.HorizontalLayout;
+import com.vaadin.ui.Table;
+import com.vaadin.ui.TextField;
+import com.vaadin.ui.VerticalLayout;
  
  
  
@@ -161,6 +155,12 @@ import com.vaadin.event.FieldEvents.TextChangeEvent;
            public void buttonClick(ClickEvent event) {
              SelectUsersPopupWindow.this.selectUser(loggedInUser.getId(), loggedInUser.getFullName());
            }
+
+		@Override
+		public void buttonClick(com.vaadin.ui.Button.ClickEvent event) {
+			// TODO Auto-generated method stub
+			
+		}
          });
        } else {
          meButton.addListener(new Button.ClickListener() {
@@ -170,6 +170,12 @@ import com.vaadin.event.FieldEvents.TextChangeEvent;
              SelectUsersPopupWindow.this.fireEvent(new SubmitEvent(SelectUsersPopupWindow.this.doneButton, "submit"));
              SelectUsersPopupWindow.this.close();
            }
+
+		@Override
+		public void buttonClick(com.vaadin.ui.Button.ClickEvent event) {
+			// TODO Auto-generated method stub
+			
+		}
          });
        }
      }
@@ -256,6 +262,12 @@ import com.vaadin.event.FieldEvents.TextChangeEvent;
          }
          
        }
+
+	@Override
+	public void buttonClick(com.vaadin.ui.Button.ClickEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
      });
      this.userSelectionLayout.addComponent(this.selectUserButton);
      this.userSelectionLayout.setComponentAlignment(this.selectUserButton, Alignment.MIDDLE_CENTER);
@@ -348,6 +360,12 @@ import com.vaadin.event.FieldEvents.TextChangeEvent;
  
          SelectUsersPopupWindow.this.close();
        }
+
+	@Override
+	public void buttonClick(com.vaadin.ui.Button.ClickEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
        
      });
      addComponent(this.doneButton);
@@ -366,7 +384,7 @@ import com.vaadin.event.FieldEvents.TextChangeEvent;
      if (!this.multiSelect) {
        throw new ActivitiException("Only use getSelectedUserIds in multiselect mode");
      }
-     return this.selectedUsersTable.getItemIds();
+     return (Collection<String>) this.selectedUsersTable.getItemIds();
    }
    
    public String getSelectedUserRole(String userId) {
