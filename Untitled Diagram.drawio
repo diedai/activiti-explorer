@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T00:49:37.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.10" etag="1T0MPpKIblb2__h0A32e" type="github"><diagram id="3f4DYoqEtAXwsW66ZQkB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-20T08:23:42.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="f1QF9SWmvkEBK0QWoVnZ" version="14.6.10" type="github">
+  <diagram id="3f4DYoqEtAXwsW66ZQkB" name="Page-1">
+    <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pog8rmQUGz5qM40TmbJP-5" target="Pog8rmQUGz5qM40TmbJP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-5" value="扫码网关" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-6" value="交易" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pog8rmQUGz5qM40TmbJP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-10" value="生产环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-11" value="灾备环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-14" value="指定测试商户号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-15" value="扫码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.05;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pog8rmQUGz5qM40TmbJP-16" target="Pog8rmQUGz5qM40TmbJP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pog8rmQUGz5qM40TmbJP-17" target="Pog8rmQUGz5qM40TmbJP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-17" value="扫码网关" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-18" value="交易" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-21" value="扫码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-23" value="灾备环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="490" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-24" value="灾备环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pog8rmQUGz5qM40TmbJP-25" value="灾备域名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
