@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T06:42:06.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ux4KiOVeH5mk50oyc94L" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T08:22:32.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GoRpDEYO_SMfdu90VcT7" version="14.6.10" type="github">
   <diagram id="PL3dKtLmIOaiZG-FbzIA" name="Page-1">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="tplD9H8OsqCx7qWOvlg--28" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;https://s.ysepay.com/yspay_ugate/aligate.do&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="320" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tplD9H8OsqCx7qWOvlg--29" value="显示金额页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="530" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
