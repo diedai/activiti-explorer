@@ -1,1 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T02:52:47.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.4" etag="QgooSJ_GOX0c1NRxKoqD" type="github"><diagram id="M9qxK_A8_LSRQUW25CJL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-04T06:42:17.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="HhUT9E4JRvNgS2dxtoAH" version="14.7.4" type="github">
+  <diagram id="M9qxK_A8_LSRQUW25CJL" name="Page-1">
+    <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-11" target="_Q1vUN6N3IxL8UIzPzUF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-11" value="入口&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;newOrderAndJsPay&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-16" target="_Q1vUN6N3IxL8UIzPzUF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-16" value="创建订单&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;newOrder&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="130" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-18" target="_Q1vUN6N3IxL8UIzPzUF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-18" value="检查商户状态：&lt;br&gt;1、检查商户是否存在&lt;br&gt;2、检查商户状态是否正常&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #9876aa&quot;&gt;merchantManager&lt;/span&gt;.checkMerchant&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="115" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-22" target="_Q1vUN6N3IxL8UIzPzUF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-22" target="_Q1vUN6N3IxL8UIzPzUF-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-22" value="入网协议检查&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;checkList = &lt;span style=&quot;color: #9876aa&quot;&gt;checkServer&lt;/span&gt;.check(checkList)&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-24" value="检查客户状态：&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;CheckCustState&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;检查协议类型：CheckPayeeAndSrcProtocol&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;检查订单协议：CheckOrderProtocol //如果是交易来源是立牌d0/t1，需要检查入网协议&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;在线入网协议：CheckPayeeAndSrcCustOrderProtocol&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;检查账户状态：CheckAcountState&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="225" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-35" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: rgb(98 , 151 , 85) ; font-style: italic ; font-size: 9pt ; white-space: nowrap&quot;&gt;风控检查&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #629755 ; font-style: italic&quot;&gt;交易监控 1.检查黑名单 2.异步保存实时监控详情记录&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #9876aa&quot;&gt;baseServer&lt;/span&gt;.saveRealtimeMonitor&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="390" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-39" target="_Q1vUN6N3IxL8UIzPzUF-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-39" value="创建订单明细&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;onlineJsPay&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="790" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-40" target="_Q1vUN6N3IxL8UIzPzUF-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-40" value="创建订单明细&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;onlineJsPay&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="790" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-42" target="_Q1vUN6N3IxL8UIzPzUF-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-42" target="_Q1vUN6N3IxL8UIzPzUF-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-42" value="校验入参&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #9876aa&quot;&gt;checkParameter&lt;/span&gt;.jsPay&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="790" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-44" value="检查支付方式&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Paymode：微信公众号，支付宝，小程序29&lt;br&gt;&lt;br&gt;&lt;/span&gt;检查付款方商户号、客户号是否存在&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="795" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="_Q1vUN6N3IxL8UIzPzUF-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1090" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-47" value="如果是小程序&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;IsMinipg&lt;/span&gt;&lt;span&gt;，&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; color: rgb(106 , 135 , 89) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;appID不能为空&lt;br&gt;&lt;br&gt;日切日期不能为空&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #9876aa&quot;&gt;limitPay&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color: #808080&quot;&gt;// 指定支付方式 (0或空代表不限制、1代表禁用贷记卡)&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="860" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-48" target="_Q1vUN6N3IxL8UIzPzUF-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-48" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(98 , 151 , 85) ; font-style: italic&quot;&gt;检查自主营销、并获取自主营销账户：&lt;/span&gt;checkServer&lt;span style=&quot;font-size: 9pt&quot;&gt;.checkMerDiscount&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#629755&quot;&gt;&lt;i&gt;检查限额：&lt;/i&gt;&lt;/font&gt;剩余支付金额&amp;lt;本次支付金额 拒绝&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1055" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-51" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1220" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-57" target="_Q1vUN6N3IxL8UIzPzUF-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-57" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;创建订单明细&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;newDetail&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1055" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-61" target="_Q1vUN6N3IxL8UIzPzUF-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-61" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;检查入网协议：CheckOrderProtocol&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1220" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-64" target="_Q1vUN6N3IxL8UIzPzUF-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-64" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;校验是否参与营销活动&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #9876aa&quot;&gt;disCountManager&lt;/span&gt;.queryRuleAmount&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1325" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-66" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;计费&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;1、平台外&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;2、平台内：使用线下计费&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="865" y="1460" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Q1vUN6N3IxL8UIzPzUF-68" target="_Q1vUN6N3IxL8UIzPzUF-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-68" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #629755 ; font-style: italic&quot;&gt;调用风控系统检查&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #9876aa&quot;&gt;jsPayAuditMaster&lt;/span&gt;.jsAudit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1205" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Q1vUN6N3IxL8UIzPzUF-70" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#629755&quot;&gt;&lt;i&gt;调用支付网关&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #9876aa&quot;&gt;jsPayMaster&lt;/span&gt;.jsPay&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1355" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
