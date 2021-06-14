@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T07:09:09.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" version="14.7.6" etag="CeGiNle_2wShKBLTC1h2" type="github"><diagram id="pdhdxNUQA4t7PSv6Ec0i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-14T07:45:20.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="m5MxSPfSd0KU4KUs5uic" version="14.7.7" type="github">
+  <diagram id="pdhdxNUQA4t7PSv6Ec0i" name="Page-1">
+    <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-1" value="扫码网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-4" value="回调" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="6CeOPaDgz_-2NqWxXIfr-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="140" as="sourcePoint" />
+            <mxPoint x="350" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-5" value="渠道-公司" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="150" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-7" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="250" as="sourcePoint" />
+            <mxPoint x="670" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-9" value="渠道-外部" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="150" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-10" value="交易成功之后，点击完成按钮，通知支付公司" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="6CeOPaDgz_-2NqWxXIfr-5">
+          <mxGeometry x="-0.7338" y="-10" relative="1" as="geometry">
+            <mxPoint x="1270" y="240" as="sourcePoint" />
+            <mxPoint x="1190" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-11" value="调用回调，通知扫码系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="220" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-13" value="更新订单状态，并且返回数据：notifyUrl前台通知地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-14" value="请求网关" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="360" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-15" value="显示扫码网关的成功页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="370" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6CeOPaDgz_-2NqWxXIfr-16" value="银联的前台通知-流程图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="140" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
