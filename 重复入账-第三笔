@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-19T09:00:48.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="LUYdB1ZWroN01vLtXRMg" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T11:11:14.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="fT3LVm5RyWmKWobK0B_y" version="14.8.0" type="github">
   <diagram id="swPXtUqM4GnMSuzIyKE8" name="Page-1">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -16,20 +16,26 @@
         <mxCell id="BkmvU8m8uQcorH_mo6dP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BkmvU8m8uQcorH_mo6dP-3" target="BkmvU8m8uQcorH_mo6dP-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BkmvU8m8uQcorH_mo6dP-3" value="1、入账&lt;br&gt;2、其他业务：查询订单明细，创建rufundbill" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="510" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="s_W7ThWY0Spo3w9DNUY4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="230" as="targetPoint" />
+            <mxPoint x="570" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BkmvU8m8uQcorH_mo6dP-3" value="1、入账&lt;br&gt;2、其他业务：&lt;br&gt;更新订单-记账id；&lt;br&gt;更新状态；&lt;br&gt;查询订单明细，创建rufundbill。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="510" y="150" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BkmvU8m8uQcorH_mo6dP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.062;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BkmvU8m8uQcorH_mo6dP-4" target="BkmvU8m8uQcorH_mo6dP-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BkmvU8m8uQcorH_mo6dP-4" value="sql：更新订单状态和退款订单状态" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BkmvU8m8uQcorH_mo6dP-4" value="&lt;div&gt;&lt;span&gt;1、冲正&lt;/span&gt;&lt;/div&gt;2、sql：更新订单状态和退款订单状态" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="510" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BkmvU8m8uQcorH_mo6dP-5" value="预授权完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="240" y="200" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BkmvU8m8uQcorH_mo6dP-6" value="入账" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="520" y="120" width="40" height="20" as="geometry" />
+          <mxGeometry x="510" y="90" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BkmvU8m8uQcorH_mo6dP-7" value="冲正" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="280" width="40" height="20" as="geometry" />
@@ -40,10 +46,10 @@
         <mxCell id="BkmvU8m8uQcorH_mo6dP-10" value="账务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="780" y="180" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YWcXIPIMYB9V-TWgwanw-1" value="入账接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="YWcXIPIMYB9V-TWgwanw-1" value="入账接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="690" y="220" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YWcXIPIMYB9V-TWgwanw-2" value="冲正接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="YWcXIPIMYB9V-TWgwanw-2" value="冲正接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="680" y="320" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
