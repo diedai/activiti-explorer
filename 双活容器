@@ -1,13 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T02:43:31.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="aqILOR7Y9eCF73WsLBqw" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-28T02:48:07.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="G_P3DrlXZtZeatjF-n6T" version="14.8.1" type="github">
   <diagram id="wyLtuLSr1C709z_NyDoA" name="Page-1">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DGxo5pLIFy48YxN7jkt0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGxo5pLIFy48YxN7jkt0-3" target="DGxo5pLIFy48YxN7jkt0-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DGxo5pLIFy48YxN7jkt0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGxo5pLIFy48YxN7jkt0-3" target="DGxo5pLIFy48YxN7jkt0-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DGxo5pLIFy48YxN7jkt0-3" value="生产域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -42,6 +39,64 @@
         </mxCell>
         <mxCell id="DGxo5pLIFy48YxN7jkt0-15" value="负载均衡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="430" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGxo5pLIFy48YxN7jkt0-17" target="DGxo5pLIFy48YxN7jkt0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-17" value="双活域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-19" value="生产环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-21" value="双活环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGxo5pLIFy48YxN7jkt0-23" target="DGxo5pLIFy48YxN7jkt0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGxo5pLIFy48YxN7jkt0-23" target="DGxo5pLIFy48YxN7jkt0-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-23" value="生产域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGxo5pLIFy48YxN7jkt0-25" target="DGxo5pLIFy48YxN7jkt0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-25" value="生产array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-26" value="生产网关节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-27" value="负载均衡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-28" value="生产ip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="200" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGxo5pLIFy48YxN7jkt0-30" target="DGxo5pLIFy48YxN7jkt0-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-30" value="双活array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-31" value="双活容器网关节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-33" value="负载均衡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="430" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-36" value="生产环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="160" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGxo5pLIFy48YxN7jkt0-41" value="如果切到双活，就把生产域名解析到双活ip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="430" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
