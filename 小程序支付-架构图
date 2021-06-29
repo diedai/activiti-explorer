@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T13:21:06.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.1" etag="4BBwlfsjYrGeQpMenkCj" type="github"><diagram id="Re6PRP7E49QCiDmmPKm8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-29T13:28:47.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="UC_ZSE00ZNu0DcCh7fDj" version="14.8.1" type="github">
+  <diagram id="Re6PRP7E49QCiDmmPKm8" name="Page-1">
+    <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-q0-bSh4xJPlAuTDFcy-1" target="g-q0-bSh4xJPlAuTDFcy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-1" value="小程序域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-q0-bSh4xJPlAuTDFcy-2" target="g-q0-bSh4xJPlAuTDFcy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-2" value="微信：如果在小程序后台配置了域名映射，直接打开小程序，不走扫码网关。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-3" value="小程序：输入金额界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g-q0-bSh4xJPlAuTDFcy-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-6" value="小程序域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-q0-bSh4xJPlAuTDFcy-7" target="g-q0-bSh4xJPlAuTDFcy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-q0-bSh4xJPlAuTDFcy-8" target="g-q0-bSh4xJPlAuTDFcy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-9" value="H5页面：输入金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-10" value="支付宝/银联" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-12" value="扫码网关array" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="795" y="420" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-13" value="扫码网关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="430" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-17" value="微信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-18" value="nginx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-21" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="420" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-22" value="微信小程序后台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g-q0-bSh4xJPlAuTDFcy-23" value="微信app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="180" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
